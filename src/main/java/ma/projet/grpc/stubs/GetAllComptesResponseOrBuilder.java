@@ -4,29 +4,29 @@
 package ma.projet.grpc.stubs;
 
 public interface GetAllComptesResponseOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.example.grpcdemo.GetAllComptesResponse)
+    // @@protoc_insertion_point(interface_extends:GetAllComptesResponse)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
+   * <code>repeated .Compte comptes = 1;</code>
    */
   java.util.List<ma.projet.grpc.stubs.Compte> 
       getComptesList();
   /**
-   * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
+   * <code>repeated .Compte comptes = 1;</code>
    */
   ma.projet.grpc.stubs.Compte getComptes(int index);
   /**
-   * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
+   * <code>repeated .Compte comptes = 1;</code>
    */
   int getComptesCount();
   /**
-   * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
+   * <code>repeated .Compte comptes = 1;</code>
    */
   java.util.List<? extends ma.projet.grpc.stubs.CompteOrBuilder> 
       getComptesOrBuilderList();
   /**
-   * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
+   * <code>repeated .Compte comptes = 1;</code>
    */
   ma.projet.grpc.stubs.CompteOrBuilder getComptesOrBuilder(
       int index);

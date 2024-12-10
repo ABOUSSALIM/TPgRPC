@@ -8,11 +8,11 @@ package ma.projet.grpc.stubs;
  * Requête pour obtenir les statistiques de solde
  * </pre>
  *
- * Protobuf type {@code com.example.grpcdemo.GetTotalSoldeRequest}
+ * Protobuf type {@code GetTotalSoldeRequest}
  */
 public  final class GetTotalSoldeRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:com.example.grpcdemo.GetTotalSoldeRequest)
+    // @@protoc_insertion_point(message_implements:GetTotalSoldeRequest)
     GetTotalSoldeRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use GetTotalSoldeRequest.newBuilder() to construct.
@@ -73,13 +73,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetTotalSoldeRequest_descriptor;
+    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_GetTotalSoldeRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetTotalSoldeRequest_fieldAccessorTable
+    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_GetTotalSoldeRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             ma.projet.grpc.stubs.GetTotalSoldeRequest.class, ma.projet.grpc.stubs.GetTotalSoldeRequest.Builder.class);
   }
@@ -233,21 +233,21 @@ private static final long serialVersionUID = 0L;
    * Requête pour obtenir les statistiques de solde
    * </pre>
    *
-   * Protobuf type {@code com.example.grpcdemo.GetTotalSoldeRequest}
+   * Protobuf type {@code GetTotalSoldeRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:com.example.grpcdemo.GetTotalSoldeRequest)
+      // @@protoc_insertion_point(builder_implements:GetTotalSoldeRequest)
       ma.projet.grpc.stubs.GetTotalSoldeRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetTotalSoldeRequest_descriptor;
+      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_GetTotalSoldeRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetTotalSoldeRequest_fieldAccessorTable
+      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_GetTotalSoldeRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               ma.projet.grpc.stubs.GetTotalSoldeRequest.class, ma.projet.grpc.stubs.GetTotalSoldeRequest.Builder.class);
     }
@@ -276,7 +276,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetTotalSoldeRequest_descriptor;
+      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_GetTotalSoldeRequest_descriptor;
     }
 
     @java.lang.Override
@@ -385,10 +385,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:com.example.grpcdemo.GetTotalSoldeRequest)
+    // @@protoc_insertion_point(builder_scope:GetTotalSoldeRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:com.example.grpcdemo.GetTotalSoldeRequest)
+  // @@protoc_insertion_point(class_scope:GetTotalSoldeRequest)
   private static final ma.projet.grpc.stubs.GetTotalSoldeRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new ma.projet.grpc.stubs.GetTotalSoldeRequest();

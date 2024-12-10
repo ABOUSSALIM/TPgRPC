@@ -4,7 +4,7 @@
 package ma.projet.grpc.stubs;
 
 public interface GetCompteByIdRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:com.example.grpcdemo.GetCompteByIdRequest)
+    // @@protoc_insertion_point(interface_extends:GetCompteByIdRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

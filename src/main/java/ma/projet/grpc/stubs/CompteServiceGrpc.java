@@ -27,7 +27,7 @@ public final class CompteServiceGrpc {
 
   private CompteServiceGrpc() {}
 
-  public static final String SERVICE_NAME = "com.example.grpcdemo.CompteService";
+  public static final String SERVICE_NAME = "CompteService";
 
   // Static method descriptors that strictly reflect the proto.
   private static volatile io.grpc.MethodDescriptor<ma.projet.grpc.stubs.GetAllComptesRequest,
@@ -48,7 +48,7 @@ public final class CompteServiceGrpc {
               io.grpc.MethodDescriptor.<ma.projet.grpc.stubs.GetAllComptesRequest, ma.projet.grpc.stubs.GetAllComptesResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(
-                  "com.example.grpcdemo.CompteService", "AllComptes"))
+                  "CompteService", "AllComptes"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   ma.projet.grpc.stubs.GetAllComptesRequest.getDefaultInstance()))
@@ -80,7 +80,7 @@ public final class CompteServiceGrpc {
               io.grpc.MethodDescriptor.<ma.projet.grpc.stubs.GetCompteByIdRequest, ma.projet.grpc.stubs.GetCompteByIdResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(
-                  "com.example.grpcdemo.CompteService", "CompteById"))
+                  "CompteService", "CompteById"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   ma.projet.grpc.stubs.GetCompteByIdRequest.getDefaultInstance()))
@@ -112,7 +112,7 @@ public final class CompteServiceGrpc {
               io.grpc.MethodDescriptor.<ma.projet.grpc.stubs.GetTotalSoldeRequest, ma.projet.grpc.stubs.GetTotalSoldeResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(
-                  "com.example.grpcdemo.CompteService", "TotalSolde"))
+                  "CompteService", "TotalSolde"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   ma.projet.grpc.stubs.GetTotalSoldeRequest.getDefaultInstance()))
@@ -144,7 +144,7 @@ public final class CompteServiceGrpc {
               io.grpc.MethodDescriptor.<ma.projet.grpc.stubs.SaveCompteRequest, ma.projet.grpc.stubs.SaveCompteResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(
-                  "com.example.grpcdemo.CompteService", "SaveCompte"))
+                  "CompteService", "SaveCompte"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   ma.projet.grpc.stubs.SaveCompteRequest.getDefaultInstance()))
